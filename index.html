@@ -1,266 +1,380 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta http-equiv="x-UA-compatible" content="IE-edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-      
-        <link rel="stylesheet" href="style.css">
-        <script src="https://kit.fontawesome.com/3baf712733.js" crossorigin="anonymous"></script>
-    </head>
-    
-    <body>
-       <div id="header">
-        <div class="container">
-            <nav>
-                <h1 id="logo"><span class="red">P</span>ravin.K</h1>
-                
-                <ul id="sidemenu">
-                    <li><a href="#header">Home</a></li>
-                    <li><a href="#about">About</a></li>
-                    <li><a href="#services">Services</a></li>
-                    <li><a href="#portfolio">Portfolio</a></li>
-                    <li><a href="#contact">Contact</a></li>
-                    <i class="fa-solid fa-square-xmark" onclick="closemenu()"></i>
-                </ul>
-                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
-            </nav>
-            
-            <div class="header-text">
-                <p>Frontend Developer</p>
-                <h1>Hi, I'm <span>Pravin</span><br>From Sri Lanka</h1>
-            </div>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="x-UA-compatible" content="IE-edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="stylesheet" href="style.css" />
+    <script
+      src="https://kit.fontawesome.com/3baf712733.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+
+  <body>
+    <div id="header">
+      <div class="container">
+        <nav>
+          <h1 id="logo"><span class="red">P</span>ravin.K</h1>
+
+          <ul id="sidemenu">
+            <li><a href="#header">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#portfolio">Portfolio</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <i class="fa-solid fa-square-xmark" onclick="closemenu()"></i>
+          </ul>
+          <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+        </nav>
+
+        <div class="header-dvd">
+          <div class="header-text">
+            <h1>Hi, I'm <span>Pravin</span><br />From Sri Lanka</h1>
+            <p class="animate-text">
+              <span>Web Developer</span>
+              <span>App Developer</span>
+              <span>UI/UX Designer</span>
+              <span>Programmer</span>
+              <span>Graphic Designer</span>
+              <span>Freelancer</span>
+            </p>
+          </div>
+
+          <div class="header-img">
+            <img src="img/pp.png" alt="" />
+          </div>
         </div>
-       </div>
-       
-       <div id="about">
-            <div class="container">
-                <div class="row">
-                    <div class="about-col1">
-                        <img src="img/m1.png" alt="">
-                    </div>
-                    <div class="about-col2">
-                        <h1 class="sub-title">About Me</h1>
-                        <p class="ab">
-                          Hello! I'm Praveen, currently studying Management of Information Systems at NSBM Green 
-                          University in Sri Lanka. I'm diving into the world of UI/UX design, aiming to create 
-                          intuitive experiences by merging managerial insights with design principles. Join me as 
-                          I explore the intersection of technology and user-centric design!
-                        </p>
-                        <div class="tab-titles">
-                            <p class="tab-links active-link" onclick="opentab('Skills')">Skills</p>
-                            <p class="tab-links" onclick="opentab('Experience')">Experience</p>
-                            <p class="tab-links" onclick="opentab('Education')">Education</p>
-                        </div>
-                        <div class="tab-contents active-tab" id="Skills">
-                            <ul>
-                                <li><span>UI/UX</span><br>Design Web/App Interface</li>
-                                <li><span>Web Development</span><br>Web/App Development</li>
-                                <li><span>Photo Editings</span><br>Photoshop</li>
-                            </ul>
-                        </div>
-                        <div class="tab-contents" id="Experience">
-                            <ul>
-                                <li><span>2023-2024</span><br>Web Development</li>
-                            </ul>
-                        </div>
-                        <div class="tab-contents" id="Education">
-                            <ul>
-                                <li><span>2022...</span><br>Management of Information System at NSBM Green University</li> 
-                            </ul>
-                        </div>
-                    </div>
-                </div>
+      </div>
+    </div>
+
+    <div class="gap"></div>
+
+    <div id="about">
+      <div class="container">
+        <div class="row">
+          <div class="about-col1">
+            <img src="img/pp2.png" alt="" />
+          </div>
+          <div class="about-col2">
+            <h1 class="sub-title">About Me</h1>
+            <p class="ab">
+              Hello! I'm Praveen, currently studying Management of Information
+              Systems at NSBM Green University in Sri Lanka. I'm diving into the
+              world of UI/UX design, aiming to create intuitive experiences by
+              merging managerial insights with design principles. Join me as I
+              explore the intersection of technology and user-centric design!
+            </p>
+            <div class="tab-titles">
+              <p class="tab-links active-link" onclick="opentab('Skills')">
+                Skills
+              </p>
+              <p class="tab-links" onclick="opentab('Experience')">
+                Work Experience
+              </p>
+              <p class="tab-links" onclick="opentab('Education')">Education</p>
             </div>
-       </div>
-
-
-
-       <div id="services">
-            <div class="container">
-                <h1 class="sub-title">My Services</h1>
-                <div class="services-list">
-                    <div class="e-card playing">
-                        <div class="image"></div>
-                        
-                        <div class="wave"></div>
-                        <div class="wave"></div>
-                        <div class="wave"></div>
-                        
-                      
-                        <div class="infotop">
-                            <i class="fa-solid fa-code"></i> <br>
-                            Web Development
-                            <br>
-                             <div class="name">Transforming visions into captivating online 
-                                experiences. Our focus? Crafting websites that captivate and 
-                                leave an indelible mark.</div><br>
-                                <a href="https://en.wikipedia.org/wiki/Web_development">Learn More</a>
-                        </div>
-                      </div>
-                      <div class="e-card playing">
-                        <div class="image"></div>
-                        
-                        <div class="wave"></div>
-                        <div class="wave"></div>
-                        <div class="wave"></div>
-                        
-                      
-                        <div class="infotop">
-                            <i class="fa-solid fa-crop-simple"></i> <br>
-                            UI / UX Designing
-                            <br>
-                             <div class="name">UI/UX expertise creates seamless, engaging digital 
-                                experiences merging functionality and stunning aesthetics for memorable 
-                                user journeys.</div><br>
-                                 <a href="https://en.wikipedia.org/wiki/User_experience_design">Learn More</a>
-                        </div>
-                      </div>
-                      <div class="e-card playing">
-                        <div class="image"></div>
-                        
-                        <div class="wave"></div>
-                        <div class="wave"></div>
-                        <div class="wave"></div>
-                        
-                      
-                        <div class="infotop">
-                            <i class="fa-regular fa-image"></i> <br>
-                             Photoshop
-                            <br>
-                             <div class="name">Mastering Photoshop drives creativity, sets new 
-                                design standards, and fuels innovation in digital solutions.</div><br>
-                                 <a href="https://en.wikipedia.org/wiki/Image_editing">Learn More</a>
-                        </div>
-                      </div>
-                </div>
+            <div class="tab-contents active-tab" id="Skills">
+              <ul>
+                <li><span>UI/UX</span><br />Design Web/App Interface</li>
+                <li><span>App Development</span><br />Dart | Flutter</li>
+                <li>
+                  <span>Web Development</span><br />React Js | Html | Css |
+                  JavaScript
+                </li>
+                <li>
+                  <span>Server-Side Programming</span><br />Node.Js | Php
+                  (Basic)
+                </li>
+                <li>
+                  <span>Programming Language</span><br />Java | C | Python
+                </li>
+                <li>
+                  <span>Software & Tools</span><br />VS Code | Android Studio |
+                  Figma | Photoshop | Ms Office
+                </li>
+                <li><span>Photo Editings</span><br />Photoshop</li>
+              </ul>
             </div>
-       </div>
-
-
-
-
-       <div id="portfolio">
-            <div class="container">
-                <h1 class="sub-title">My Work</h1>
-                <div class="work-list">
-                    <div class="work">
-                        <img src="img/p1.png" width="" height="338px">
-                        <div class="layer">
-                            <h3>Login Web Page</h3>
-                            <p>A vital and secure access point, ensuring seamless entry into your digital realm.</p>
-                            <a href="img/login.pdf" download><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
-                        </div>
-                    </div>
-
-                    <div class="work">
-                        <img src="img/p3.jpg" width="" height="338px">
-                        <div class="layer">
-                            <h3>Petscare Web Page</h3>
-                            <p>Join our celebration of pets, from heartwarming tales to expert 
-                                care tips, embracing the joy and companionship they offer.</p>
-                                <a href="img/pet.pdf" download><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
-                        </div>
-                    </div>
-
-                    <div class="work">
-                        <img src="img/p2.jpg" width="" height="338px">
-                        <div class="layer">
-                            <h3>Food Web Page</h3>
-                            <p>Embark on a culinary journey with our diverse range of tantalizing 
-                                recipes and expert tips, enhancing your dining experience.</p>
-                                <a href="img/food.pdf" download><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
-                        </div>
-                    </div>
-                </div>
-                <a href="#" class="btn">See More</a>
+            <div class="tab-contents" id="Experience">
+              <ul>
+                <li>
+                  <span>Cashier</span><br />6 months training completed in
+                  <b>Asia Asset Finance PLC</b> <br />Bogawantahalwa
+                </li>
+              </ul>
             </div>
-       </div>
-
-       <div id="contact">
-            <div class="container">
-                <div class="row">
-                    <div class="contact-left">
-                        <h1 class="sub-title">Contact Me</h1>
-                        <p><i class="fa-solid fa-paper-plane"></i>pravinmpk2@gmail.com</p>
-                        <p><i class="fa-solid fa-phone"></i>+94 703310110</p>
-                        <div class="social-icon">
-                            <a href="https://www.facebook.com/profile.php?id=100010741177422&mibextid=nwBsNb"><i class="fa-brands fa-facebook"></i></a>
-                            <a href="https://www.instagram.com/im.prxvin?igsh=YzM2dm80azk1OTF5&utm_source=qr"><i class="fa-brands fa-instagram"></i></a>
-                            <a href="https://github.com/mpkumar04"><i class="fa-brands fa-github"></i></a>
-                            <a href="https://www.linkedin.com/in/pravin-kumar-3781b4280?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app"><i class="fa-brands fa-linkedin"></i></a>
-                        </div>
-                        <a href="img/My CV.pdf" download class="btn btn2">Download CV</a>
-                    </div>
-                    <div class="contact-right">
-                        <form name="submit-to-google-sheet">
-                            <input type="text" name="Name" placeholder="Your Name" required>
-                            <input type="email" name="Email" placeholder="Your Email" required>
-                            <textarea name="Message"  rows="6" placeholder="Your Message"></textarea>
-                            <button type="submit" class="btn btn2">Submit</button> 
-                        </form>
-                        <span id="msg"></span>
-                    </div>
-                </div>
+            <div class="tab-contents" id="Education">
+              <ul>
+                <li>
+                  <span>Bsc in Management of Information System (Special)</span
+                  ><br /><b>NSBM Green University</b><br />2022-Present
+                </li>
+              </ul>
             </div>
-            <div class="copyright">
-                <p>Copyright © Pravin. Made with <i class="fa-solid fa-heart"></i> by Pravin.K</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div id="services">
+      <div class="container">
+        <h1 class="sub-title">My Services</h1>
+        <div class="services-list">
+          <div class="e-card playing">
+            <div class="image"></div>
+
+            <div class="wave"></div>
+            <div class="wave"></div>
+            <div class="wave"></div>
+
+            <div class="infotop">
+              <i class="fa-solid fa-code"></i> <br />
+              App/Web Development
+              <br />
+              <div class="name">
+                Transforming visions into captivating online experiences. Our
+                focus? Crafting websites or Mobile App that captivate and leave
+                an indelible mark.
+              </div>
+              <br />
+              <a href="https://en.wikipedia.org/wiki/Web_development"
+                >Learn More</a
+              >
             </div>
-       </div>
+          </div>
+          <div class="e-card playing">
+            <div class="image"></div>
 
+            <div class="wave"></div>
+            <div class="wave"></div>
+            <div class="wave"></div>
 
+            <div class="infotop">
+              <i class="fa-solid fa-crop-simple"></i> <br />
+              UI / UX Designing
+              <br />
+              <div class="name">
+                UI/UX expertise creates seamless, engaging digital experiences
+                merging functionality and stunning aesthetics for memorable user
+                journeys.
+              </div>
+              <br />
+              <a href="https://en.wikipedia.org/wiki/User_experience_design"
+                >Learn More</a
+              >
+            </div>
+          </div>
+          <div class="e-card playing">
+            <div class="image"></div>
 
+            <div class="wave"></div>
+            <div class="wave"></div>
+            <div class="wave"></div>
 
+            <div class="infotop">
+              <i class="fa-regular fa-image"></i> <br />
+              Photoshop
+              <br />
+              <div class="name">
+                Mastering Photoshop drives creativity, sets new design
+                standards, and fuels innovation in digital solutions.
+              </div>
+              <br />
+              <a href="https://en.wikipedia.org/wiki/Image_editing"
+                >Learn More</a
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
 
-       <script>
+    <div id="portfolio">
+      <div class="container">
+        <h1 class="sub-title">My Work</h1>
+        <div class="work-list">
+          <div class="work">
+            <img src="img/p1.jpg" width="" height="338px" />
+            <div class="layer">
+              <h3>School websites</h3>
+              <p>
+                Built a responsive school website with announcements, events,
+                and student resources.
+              </p>
+              <a href="https://github.com/mpkumar04/stmarys.git" download
+                ><i class="fa-solid fa-arrow-up-right-from-square"></i
+              ></a>
+            </div>
+          </div>
 
-        var tablinks = document.getElementsByClassName("tab-links");
-        var tabcontents = document.getElementsByClassName("tab-contents");
+          <div class="work">
+            <img src="img/p3.png" width="" height="338px" />
+            <div class="layer">
+              <h3>WasteFoodManagement App</h3>
+              <p>
+                Created a Flutter app for waste food management with donation
+                tracking and community support.
+              </p>
+              <a
+                href="https://github.com/mpkumar04/wastefoodmanagement.git"
+                download
+                ><i class="fa-solid fa-arrow-up-right-from-square"></i
+              ></a>
+            </div>
+          </div>
 
-        function opentab(tabname){
-            for(tablink of tablinks){
-                tablink.classList.remove("active-link")
-            }
-            for(tabcontent of tabcontents){
-                tabcontent.classList.remove("active-tab")
-            }
-            event.currentTarget.classList.add("active-link");
-            document.getElementById(tabname).classList.add("active-tab");
+          <div class="work">
+            <img src="img/p2.webp" width="" height="338px" />
+            <div class="layer">
+              <h3>Guess the Number Game</h3>
+              <p>
+                Developed a React game where users guess a number with instant
+                feedback.
+              </p>
+              <a
+                href="https://github.com/mpkumar04/react-guess-the-number-game.git"
+                download
+                ><i class="fa-solid fa-arrow-up-right-from-square"></i
+              ></a>
+            </div>
+          </div>
+        </div>
+        <a href="#" class="btn">See More</a>
+      </div>
+    </div>
+
+    <div id="contact">
+      <div class="container">
+        <div class="row">
+          <div class="contact-left">
+            <h1 class="sub-title">Contact Me</h1>
+            <p><i class="fa-solid fa-paper-plane"></i>pravinmpk2@gmail.com</p>
+            <p><i class="fa-solid fa-phone"></i>+94 703310110</p>
+            <div class="social-icon">
+              <a
+                href="https://www.facebook.com/profile.php?id=100010741177422&mibextid=nwBsNb"
+                ><i class="fa-brands fa-facebook"></i
+              ></a>
+              <a
+                href="https://www.instagram.com/im.prxvin?igsh=YzM2dm80azk1OTF5&utm_source=qr"
+                ><i class="fa-brands fa-instagram"></i
+              ></a>
+              <a href="https://github.com/mpkumar04"
+                ><i class="fa-brands fa-github"></i
+              ></a>
+              <a
+                href="https://www.linkedin.com/in/pravin-kumar-3781b4280?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app"
+                ><i class="fa-brands fa-linkedin"></i
+              ></a>
+            </div>
+            <a href="img/PravinKumar CV.pdf" download class="btn btn2"
+              >Download CV</a
+            >
+          </div>
+          <div class="contact-right">
+            <form name="submit-to-google-sheet">
+              <input type="text" name="Name" placeholder="Your Name" required />
+              <input
+                type="email"
+                name="Email"
+                placeholder="Your Email"
+                required
+              />
+              <textarea
+                name="Message"
+                rows="6"
+                placeholder="Your Message"
+              ></textarea>
+              <button type="submit" class="btn btn2">Submit</button>
+            </form>
+            <span id="msg"></span>
+          </div>
+        </div>
+      </div>
+      <div class="copyright">
+        <p>
+          Copyright © Pravin. Made with <i class="fa-solid fa-heart"></i> by
+          Pravin.K
+        </p>
+      </div>
+    </div>
+
+    <script>
+      var tablinks = document.getElementsByClassName("tab-links");
+      var tabcontents = document.getElementsByClassName("tab-contents");
+
+      function opentab(tabname) {
+        for (tablink of tablinks) {
+          tablink.classList.remove("active-link");
         }
+        for (tabcontent of tabcontents) {
+          tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+      }
+    </script>
 
-       </script>
+    <script>
+      var sd = document.getElementById("sidemenu");
 
-       <script>
+      function openmenu() {
+        sd.style.right = "0";
+      }
+      function closemenu() {
+        sd.style.right = "-200px";
+      }
+    </script>
 
-            var sd = document.getElementById("sidemenu");
+    <script>
+      const txts = document.querySelector(".animate-text").children,
+        txtsLen = txts.length;
+      let index = 0;
+      const textInTimer = 3000,
+        textOutTimer = 2800;
 
-            function openmenu(){
-                sd.style.right = "0";
-            }
-            function closemenu(){
-                sd.style.right = "-200px";
-            }
+      function animateText() {
+        for (let i = 0; i < txtsLen; i++) {
+          txts[i].classList.remove("text-in", "text-out");
+        }
+        txts[index].classList.add("text-in");
 
-       </script>
+        setTimeout(function () {
+          txts[index].classList.add("text-out");
+        }, textOutTimer);
 
-<script>
-    const scriptURL = 'https://script.google.com/macros/s/AKfycbzAqvj5eDdsYXYTwJ-ANathCvkNvhxqW8B-8vC67peSJ38lMQtFxG2tg1pz58PP77xE/exec'
-    const form = document.forms['submit-to-google-sheet']
-    const msg = document.getElementById("msg")
-    form.addEventListener('submit', e => {
-      e.preventDefault()
-      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
-        .then(response => {
-            msg.innerHTML = "Message send successfully"
-            setTimeout(function(){
-                msg.innerHTML = ""
-            },5000)
-            form.reset()
-        })
-        .catch(error => console.error('Error!', error.message))
-    })
-  </script>
-    
-    
-    </body>
+        setTimeout(function () {
+          if (index == txtsLen - 1) {
+            index = 0;
+          } else {
+            index++;
+          }
+          animateText();
+        }, textInTimer);
+      }
+
+      window.onload = animateText;
+    </script>
+
+    <script>
+      const scriptURL =
+        "https://script.google.com/macros/s/AKfycbzAqvj5eDdsYXYTwJ-ANathCvkNvhxqW8B-8vC67peSJ38lMQtFxG2tg1pz58PP77xE/exec";
+      const form = document.forms["submit-to-google-sheet"];
+      const msg = document.getElementById("msg");
+      form.addEventListener("submit", (e) => {
+        e.preventDefault();
+        fetch(scriptURL, { method: "POST", body: new FormData(form) })
+          .then((response) => {
+            msg.innerHTML = "Message send successfully";
+            setTimeout(function () {
+              msg.innerHTML = "";
+            }, 5000);
+            form.reset();
+          })
+          .catch((error) => console.error("Error!", error.message));
+      });
+    </script>
+  </body>
 </html>
